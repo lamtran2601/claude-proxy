@@ -41,6 +41,7 @@ This is a Go-based desktop application that provides a proxy server for the Anth
    ```
 
 2. The proxy server will start on the port specified by the `PORT` environment variable, or port `8080` if `PORT` is not set. You can now make requests to `http://localhost:<port>` and the proxy will forward them to the Anthropic Claude API, handling API key rotation on rate limit.
+<img width="555" alt="image" src="https://github.com/user-attachments/assets/040658b0-46c7-40ab-bab1-542e003d3d6b">
 
 ## Code Overview
 
