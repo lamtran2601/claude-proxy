@@ -12,7 +12,6 @@ if (!API_KEYS.length) {
 
 let currentKeyIndex = 0;
 
-// Rotate API key without mutex
 function rotateAPIKey() {
   const prevIndex = currentKeyIndex;
   currentKeyIndex = (currentKeyIndex + 1) % API_KEYS.length;
